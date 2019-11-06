@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
+<head>
 <title>Assignment FORM</title>
+<link rel="stylesheet" type="text/css" href="form.css"/>
+</head>
 <body>
 <fieldset>
-<legend>Form Model</legend>
+<legend class='font' align="center">Form Model</legend>
 <form method="post" autocomplete="on">
 <pre>
 <label>First Name: </label><input type="text" name="first"  autofocus  size="40" pattern="[a-zA-Z]{3,18}" placeholder="letters only" required/>
@@ -32,7 +35,7 @@
 						   <option value="4">MSc</option>
 						   </select>
 						   
-<label>Sports:     </label><label>Football:</label><input type="checkbox" name="Football" required/>  <label>Chess:</label><input type="checkbox" name="Chess" required/>  <label>Carrom:</label><input type="checkbox" name="Carrom" required/>
+<label>Sports:     </label><label>Football:</label><input type="checkbox" name="Football" checked/>  <label>Chess:</label><input type="checkbox" name="Chess" />  <label>Carrom:</label><input type="checkbox" name="Carrom"/>
 
 <label>Hobbies:    </label><select name="hobby" multiple size="2" required>   
                            <option value="0">Painting & Drawing</option>
@@ -44,7 +47,7 @@
 <span>you can select multiple values,press ctrl+click</span>
 
 
-<input type="submit" value="Submit"/>
+<input type="submit" value="Submit"/>   <input type="reset" value="Reset"/>
 </pre>
 </form>
 </fieldset>
