@@ -1,0 +1,66 @@
+.pic{
+background-image: url("design.png");
+background-repeat: repeat-y;
+background-color: black;
+}
+#pic2{
+background-image: url("design2.png");
+background-repeat: repeat-x;
+}
+.data{
+font-family: Segoe Marker;
+font-size: 50px;
+text-align: center;
+background-color: bisque;
+color: Brown;
+}
+.name{
+background-color: grey;
+font-family: Arial;
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+}
+.adrs{
+background-color: Royalblue;
+font-family: Arial;
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+}
+.dob{
+background-color: LightSteelBlue;
+font-family: Arial;
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+}
+.mobile{
+background-color: LightYellow;
+font-family: Arial;
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+}
+.btn{
+background-color: Teal;
+font-family: Arial;
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+}
+.btn2{
+background-color: silver;
+cursor: pointer;
+text-align: center;
+}
+.more{
+background-color: SlateGrey;
+font-family: Arial;
+font-size: 30px;
+font-weight: bold;
+text-align: center;
+text-decoration: none;
+color: Darkgreen;
+}
