@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Day_9_Assignment_2 FORM</title>
+<link rel="stylesheet" type="text/css" href="form.css"/>
+</head>
+<body>
+<fieldset>
+<legend class='font' align="center">Form Model</legend>
+<form method="post" action="insertData.php" autocomplete="on">
+<pre>
+<label>First Name: </label><input type="text" name="first"  autofocus  size="40" pattern="[a-zA-Z]{3,18}" placeholder="letters only" required/>
+
+<label>Last Name:  </label><input type="text" name="last" size="40" pattern="[a-zA-Z]{4,10}" placeholder="letters only" required/>
+
+<label>Age:        </label><input type="number" name="age"  pattern="[0-9]" min="1" max="100"  placeholder="digits only" required/>
+
+<label>D.O.B:      </label><input type="date" name="date" min="2000-01-01" max="2019-12-31" required/>
+
+<label>Sex:        </label><label>Male: </label><input type="radio" name="sex" value="Male" required/>    <label>Female: </label><input type="radio" name="sex" value="Female" required/>
+
+<label>Mobile:     </label><input type="text" name="Mobile" pattern="[0-9]{10}" maxlength="10" required/>
+
+<label>Address:    </label><input type="text" name="Address" pattern="[a-zA-Z0-9]{5,20}" required/>
+
+<label>Pincode:    </label><input type="text" name="pin" pattern="[0-9]{6}" required/>
+
+<label>Email:      </label><input type="email" required/>
+
+<label>Education:  </label><select name="edu" required>
+                           <option name=" "> </option>
+						   <option name="be">BE</option>
+						   <option name="bsc">BSc</option>
+						   <option name="me">ME</option>
+						   <option name="msc">MSc</option>
+						   </select>
+						   
+<label>Sports:     </label><label>Football:</label><input type="checkbox" name="sports[]" value="Football" checked/>   <label>Chess:</label><input type="checkbox" name="sports[]" value="Chess"/>   <label>Carrom:</label><input type="checkbox" name="sports[]" value="Carrom"/>
+
+<label>Hobbies:    </label><select name="hobby[]" multiple size="2" required>   
+                           <option>Painting & Drawing</option>
+						   <option>Book Reading</option>
+						   <option>Movie Watching</option>
+						   <option>Enjoying Music</option>
+						   <option>Eat-sleep-repeat</option>
+						   </select>
+<span>you can select multiple values,press ctrl+click</span>
+
+
+<input type="submit" value="Submit"/>   <input type="reset" value="Reset"/>
+</pre>
+</form>
+</fieldset>
+</body>
+</html>

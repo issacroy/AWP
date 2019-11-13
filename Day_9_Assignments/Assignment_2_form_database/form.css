@@ -1,0 +1,15 @@
+fieldset{
+background-color: silver;
+}
+body{
+background-color: grey;
+}
+.font{
+font-weight: bold;
+font-family: Arial;
+color: white;
+}
+label{
+font-weight: 500;
+font-family: Times New Roman;
+}
